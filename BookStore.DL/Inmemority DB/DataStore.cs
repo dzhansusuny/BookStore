@@ -11,15 +11,16 @@ namespace BookStore.DL.Inmemority_DB
         {
             new Author()
             {
-                Id = 1, 
-                Name ="Gosho",
+                Id = 1,
+                Name = "Gosho",
                 Bio = "Gosho bio"
             },
-             new Author()
+            new Author()
             {
                 Id = 2,
-                Name ="Ginka",
+                Name = "Ginka",
                 Bio = "Ginka bio"
-        }
+            }
+        };
     }
 }
