@@ -4,6 +4,7 @@ using BookStore.Models.data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace BookStore.DL.Repository
         
 public Author GetById(int id)
         {
-            throw new NotImplementedException();
+            return DataStore.Authors.FirstOrDefault(x => x.Id== id.)
         }
 
         public IEnumerable<Author> GettAll()
