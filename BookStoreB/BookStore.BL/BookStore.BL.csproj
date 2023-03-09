@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FsCheck" Version="2.16.5" />
+    <ProjectReference Include="..\BookStore.DL\BookStore.DL.csproj" />
+    <ProjectReference Include="..\BookStore.Models\BookStore.Models.csproj" />
   </ItemGroup>
 
 </Project>

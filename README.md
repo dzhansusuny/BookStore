@@ -1,2 +1,2 @@
-# BookStore
-Dzhansu Aliosman PU project
+# BookStoreB
+PU .NET project group B
